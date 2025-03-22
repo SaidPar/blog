@@ -10,7 +10,7 @@ Compression is often single-threaded because the complex algorithms involved in 
 
 Moreover, the zip file format doesn't necessarily lend itself well to parallelization. The anatomy of the zip file is essentially a collection of local files (entries) and a central directory at the end of the file. Each local file has some metadata associated with it in the entry header, followed by the central directory with additional metadata. 
 
-![Zip File Contents](/blog/assets/zip-file-contents.png)
+![Zip File Decomposed](https://github.com/user-attachments/assets/e8574f4d-1e08-4d13-b671-bed2df29834f)
 
 It is difficult for a zip file format writer to know the size of compressed bytes for each local file, particularly when those entries are large files or streams in which the entirety can not be held in memory. 
 
