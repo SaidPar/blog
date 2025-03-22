@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Parallel Compression"
-date: 2025-03-22 15:38:00 -0800
+date: 2025-03-22 03:38:00 -0800
 categories: jekyll update
 ---
 Zip file format is a first class citizen of IT infrastructure. The `.zip` file extension is as ubiquitous as `.pdf`, `.xml` & `.json`. The rise of this format authored by [Phil Katz](https://en.wikipedia.org/wiki/Phil_Katz) can be attributed to its open nature as shareware and the publishing of its [cross-platform, interoperable file storage and transfer format](https://pkwaredownloads.blob.core.windows.net/pkware-general/Documentation/APPNOTE-6.3.9.TXT). The specification allows any developer to create and extract `.zip` files. Check out [this great post](https://www.logikcull.com/blog/whats-in-a-zip-file-a-history-of-one-of-the-worlds-most-essential-file-types) to learn more about the history of the zip file format.
